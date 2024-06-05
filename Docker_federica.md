@@ -1,4 +1,15 @@
-<h1 id="uso-de-contenedor-php--apache2">Uso de contenedor PHP + Apache2</h1>
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Docker_federica</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><h1 id="uso-de-contenedor-php--apache2">Uso de contenedor PHP + Apache2</h1>
 <p>En este documento se detallan algunos comandos útiles y casos de uso para el contenedor de docker con Apache y PHP 7.4</p>
 <h1 id="verificación-de-servicios-activos">Verificación de servicios activos</h1>
 <p>Para verficar los servicios corriendo de docker, se utilizará el siguiente comando:</p>
@@ -122,4 +133,7 @@ CONTAINER ID        IMAGE                    COMMAND                  CREATED   
 20492f50fb80        federica-apache_app      "apachectl -D FOREGR…"   20 seconds ago      Up 9 seconds        8080/tcp, 0.0.0.0:8010-&gt;80/tcp   federica-apache_app-1
 6f123f53fcdb        contenedor2-apache_app   "apachectl -D FOREGR…"   51 seconds ago      Up 2 seconds        8080/tcp, 0.0.0.0:8011-&gt;80/tcp   contenedor2-apache_app-1
 </code></pre>
+</div>
+</body>
 
+</html>
