@@ -9,7 +9,28 @@
 </head>
 
 <body class="stackedit">
-  <div class="stackedit__html"><h1 id="uso-de-contenedor-php--apache2">Uso de contenedor PHP + Apache2</h1>
+  <div class="stackedit__left">
+    <div class="stackedit__toc">
+      
+<ul>
+<li><a href="#uso-de-contenedor-php--apache2">Uso de contenedor PHP + Apache2</a></li>
+<li><a href="#verificación-de-servicios-activos">Verificación de servicios activos</a></li>
+<li><a href="#configuración-del-servicio">Configuración del servicio</a></li>
+<li><a href="#incio-del-servicio">Incio del servicio</a>
+<ul>
+<li><a href="#apagado-del-servicio">Apagado del servicio</a></li>
+<li><a href="#prender-servicio-apagado">Prender servicio apagado</a></li>
+<li><a href="#eliminar-un-servicio">Eliminar un servicio</a></li>
+<li><a href="#duplicado-de-servicios">Duplicado de servicios</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+  </div>
+  <div class="stackedit__right">
+    <div class="stackedit__html">
+      <h1 id="uso-de-contenedor-php--apache2">Uso de contenedor PHP + Apache2</h1>
 <p>En este documento se detallan algunos comandos útiles y casos de uso para el contenedor de docker con Apache y PHP 7.4</p>
 <h1 id="verificación-de-servicios-activos">Verificación de servicios activos</h1>
 <p>Para verficar los servicios corriendo de docker, se utilizará el siguiente comando:</p>
@@ -133,7 +154,9 @@ CONTAINER ID        IMAGE                    COMMAND                  CREATED   
 20492f50fb80        federica-apache_app      "apachectl -D FOREGR…"   20 seconds ago      Up 9 seconds        8080/tcp, 0.0.0.0:8010-&gt;80/tcp   federica-apache_app-1
 6f123f53fcdb        contenedor2-apache_app   "apachectl -D FOREGR…"   51 seconds ago      Up 2 seconds        8080/tcp, 0.0.0.0:8011-&gt;80/tcp   contenedor2-apache_app-1
 </code></pre>
-</div>
+
+    </div>
+  </div>
 </body>
 
 </html>
